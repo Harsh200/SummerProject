@@ -30,3 +30,4 @@ def create_report(name,url,domain_name,nmap,robots_txt,whois):
 gather_info("google","https://www.google.com")
 
 print("Scan Completed")
+#Project Completes
