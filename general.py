@@ -5,3 +5,5 @@ def create_dir(directory):
         os.makedirs(directory)
 
 # function for writing data to file
+
+def write_file(path,data):
