@@ -18,3 +18,11 @@ def gather_info(name,url):
     create_report(name,url,domain_name,nmap,robots_txt,whois)
 
 def create_report(name,url,domain_name,nmap,robots_txt,whois):
+    project_dir=ROOT_DIR + "/" + name
+    create_dir(project_dir)
+
+    write_file(project_dir + "/full_url.txt",url)
+    write_file(project_dir + "/domain_name.txt", domain_name)
+    write_file(project_dir + "/nmap.txt", nmap)
+    write_file(project_dir + "/robots.txt", robots_txt)
+    write_file(project_dir + "/whois.txt", whois)
