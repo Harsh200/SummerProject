@@ -14,3 +14,5 @@ def get_robots_txt(url):
     data=io.TextIOWrapper(req,encoding='utf-8')
     print("Robots.txt done!")
     return data.read()
+
+#End of robots.txt.py
