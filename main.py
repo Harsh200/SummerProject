@@ -26,3 +26,7 @@ def create_report(name,url,domain_name,nmap,robots_txt,whois):
     write_file(project_dir + "/nmap.txt", nmap)
     write_file(project_dir + "/robots.txt", robots_txt)
     write_file(project_dir + "/whois.txt", whois)
+
+gather_info("google","https://www.google.com")
+
+print("Scan Completed")
