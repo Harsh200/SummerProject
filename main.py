@@ -14,3 +14,7 @@ def gather_info(name,url):
     whois=get_whois(domain_name)
     ip_address=get_ip_address(domain_name)
     nmap=get_nmap("-F",ip_address)
+
+    create_report(name,url,domain_name,nmap,robots_txt,whois)
+
+def create_report(name,url,domain_name,nmap,robots_txt,whois):
