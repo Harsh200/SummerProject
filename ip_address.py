@@ -11,3 +11,5 @@ def get_ip_address(url):
     #Returning the top level ip address
     print("IP ADDRESS DONE")
     return results[marker].splitlines()[0]
+
+#End of ip_address.py
