@@ -8,3 +8,4 @@ from whois import *
 
 ROOT_DIR='companies'
 create_dir(ROOT_DIR)
+def gather_info(name,url):
