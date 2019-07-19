@@ -6,3 +6,5 @@ def get_domain_name(url):
     return domain_name
 
 print(get_domain_name('https://www.facebook.com'))
+
+#End of domain_name.py file
