@@ -10,3 +10,5 @@ def write_file(path,data):
     f=open(path,"w")
     f.write(data)
     f.close()
+
+#end of general.py
