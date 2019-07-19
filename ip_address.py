@@ -8,4 +8,6 @@ def get_ip_address(url):
     marker=results.find('has address') + 12
 
 
-#Returning the top level ip address
+    #Returning the top level ip address
+    print("IP ADDRESS DONE")
+    return results[marker].splitlines()[0]
