@@ -11,3 +11,5 @@ def get_whois(url):
     #Returning the information
     print("WhoisDone")
     return results
+
+#End of whois.py file
